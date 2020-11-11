@@ -21,7 +21,7 @@ form.addEventListener("submit", (e) => {
         tableauResultat.push(document.querySelector(`input[name='q${index}']:checked`).value)
     }
 
-    // console.log(tableauResultat);
+    //  console.log(tableauResultat);
 
     verifFunc(tableauResultat);
 
@@ -46,7 +46,7 @@ function verifFunc(tabResultats) {
 
     }
 
-    // console.log(verifTableau);
+    console.log(verifTableau);
     afficherResultats(verifTableau);
     couleursFonction(verifTableau);
 
